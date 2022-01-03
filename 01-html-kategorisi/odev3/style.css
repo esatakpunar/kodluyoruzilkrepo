@@ -1,0 +1,35 @@
+.body{
+    background-color: burlywood;
+}
+
+.baslik{
+    text-align: center;
+    color: brown;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    border-radius: 18px;
+}
+
+.giris{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 70%;
+    font-weight: bold;
+}
+
+.icerik{
+    text-align: left;
+    list-style: inside;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.son{
+    text-align: right;
+    margin: 0 auto;
+    max-width: 70%;
+}
