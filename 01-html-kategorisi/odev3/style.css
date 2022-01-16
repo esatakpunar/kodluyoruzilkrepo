@@ -1,8 +1,8 @@
-.body{
+body{
     background-color: burlywood;
 }
 
-.baslik{
+body h1{
     text-align: center;
     color: brown;
 }
@@ -14,7 +14,7 @@
     border-radius: 18px;
 }
 
-.giris{
+body p{
     text-align: center;
     margin: 0 auto;
     max-width: 70%;
