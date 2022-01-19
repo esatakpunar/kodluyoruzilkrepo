@@ -1,0 +1,55 @@
+.logo{
+    text-align: center;
+    display: block;
+}
+
+.footer{
+    font-size: small;
+    text-align: center;
+}
+
+.content{
+    margin-right: 75px;
+    margin-left: 75px;
+    background-color: #EEEEEE;
+    text-align: center;
+    display: block;
+}
+
+.p-search{
+    margin: 0;
+    padding: 0;
+}
+
+.third{
+    margin-right: 75px;
+    margin-left: 75px;
+    text-align: center;
+    height: 60px;
+    background-color: white;
+    padding: 3px;
+}
+
+.left-box{
+    background-color: #7EE5DA;
+    float: left;
+    width: 37%;
+    height: 75px;
+    padding-top: 10px;
+}
+
+.middle-box{
+    background-color:#70CCC2;
+    float: left;
+    font-size: 13px;
+    height: 75px;
+    width: 20%;
+    padding-top: 10px;
+}
+
+
+.right-box{
+    background-color: #62B3AA;
+    height: 85px;
+     
+}
