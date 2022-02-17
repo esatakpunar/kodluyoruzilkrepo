@@ -1,0 +1,35 @@
+.navbar{
+    width: 160px;
+    /* background-color: gray; */
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    
+}
+
+.gmail{
+    float: left;
+}
+
+.pictures{
+    float: left;
+}
+
+.apps{
+    float: left;
+}
+
+.nav-apps{
+    padding: 2px;
+}
+
+.logo{
+    position: relative;
+}
+
+#logo_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
