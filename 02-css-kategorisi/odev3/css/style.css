@@ -1,35 +1,221 @@
-.navbar{
-    width: 160px;
-    /* background-color: gray; */
-    padding: 10px;
-    position: absolute;
-    right: 10px;
-    
+.header {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 10px;
+    margin-top: -5px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    width: 200px;
 }
 
-.gmail{
-    float: left;
+.headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
 }
 
-.pictures{
-    float: left;
+.headerli a:hover {
+    text-decoration: underline;
 }
 
-.apps{
-    float: left;
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    list-style-type: none;
+    margin: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    width: 100px;
 }
 
-.nav-apps{
-    padding: 2px;
+.header-left a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
 }
 
-.logo{
+.header-left a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    margin: 150px;
+}
+
+.search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -90px;
+    width: 582px;
+    border-radius: 50px;
+}
+
+.search-area:hover {
+    box-shadow: 0 1px 2px 0 rgba(64, 64, 64, 0.24), 0 1px 3px 0 rgba(59, 59, 59, 0.19);
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
     position: relative;
 }
 
-#logo_pic{
+.input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    width: 100%;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border: none;
+}
+
+.microphone {
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.buttons {
+    text-align: center;
+    margin: 15px;
+}
+
+.googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(243, 241, 241);
+}
+
+.googlesearch:hover {
+    border: 1px solid lightgray;
+    background-color: #fff;
+}
+
+.feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(243, 241, 241);
+}
+
+.feelinglucky:hover {
+    border: 1px solid lightgray;
+    background-color: #fff;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+}
+
+.footerli {
+    float: left;
+    list-style: none;
+}
+
+.footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+}
+
+.footerli a:hover {
+    text-decoration: underline;
 }
